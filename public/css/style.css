@@ -1,0 +1,31 @@
+.content h1 {
+    font-size: 4rem;
+}
+.content .lead {
+    font-size: 1rem;
+}
+
+/* TEMPERATURE CARD */
+
+.card h2 {
+    font-size: 3rem;
+}
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    transform: scale(1.1);
+}
+.form-control {
+    border: none;
+    border-radius: 0%;
+    text-align: center;
+    border-bottom: 2px solid gray;
+    width: 200px;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+    font-weight: bold;
+}
+.lead {
+    font-weight: bold;
+}

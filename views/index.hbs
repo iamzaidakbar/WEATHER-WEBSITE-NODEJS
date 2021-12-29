@@ -1,0 +1,23 @@
+
+{{>header}}
+        <div class="container">
+
+            <div class="col-md-6 mx-auto mt-5 text-center">
+                <h2>Welcome </h2>
+                <h3>Get Weather Updates </h3>
+                {{>navbar}}
+                <form>
+                <input class="form-control mx-auto mt-5" placeholder="Search City" >
+                <button class="btn btn-dark bg-dark rounded-0 px-3 my-4">Search</button>
+            </form>
+           <div class="report mt-4">
+               {{error}}
+                 <p class="lead text-danger" id="messageError"></p>
+                 <p class="lead" id="messageOne"></p>
+                 <p class="lead" id="messageTwo"></p>
+                 <p class="lead" id="messageThree"></p>
+            
+           </div>
+            </div>
+        </div>
+{{>footer}}
