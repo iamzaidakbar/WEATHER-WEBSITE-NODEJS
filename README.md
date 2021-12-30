@@ -1,1 +1,2 @@
-# Weather-Api-Website >>>>>>>>>>>>>>>>>>>  https://iamzaidakbar.github.io/Weather-Api-Website/
+install npm-modules before running the code
+code for installing npm-module -> npm install
